@@ -1,0 +1,64 @@
+:root {
+    --s1: #0d0d0f;
+    --s2: #14151a;
+    --s3: #1a1c24;
+    --s4: #20222d;
+    --s5: #262837;
+    --s6: #2c2f41;
+    --s7: #33364b;
+    --s8: #393d55;
+    --s9: #40445f;
+    --s10: #464b69;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #0d0d0f;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.parallax-container {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.section {
+    --scroll-span: 1;
+    position: relative;
+    height: calc(var(--scroll-span) * 100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.section__label {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.35);
+    font-variant-numeric: tabular-nums;
+}
+.section--1{ background: var(--s1); }
+.section--2{ background: var(--s2); }
+.section--3{ background: var(--s3); }
+.section--4{ background: var(--s4); }
+.section--5{ background: var(--s5); }
+.section--6{ background: var(--s6); }
+.section--7{ background: var(--s7); }
+.section--8{ background: var(--s8); }
+.section--9{ background: var(--s9); }
+.section--10{ background: var(--s10); }
