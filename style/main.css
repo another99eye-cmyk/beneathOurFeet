@@ -127,7 +127,7 @@ html, body {
     color: rgba(255, 255, 255, 0.35);
     font-variant-numeric: tabular-nums;
 }
-.section--1{ background: var(--s1); }
+.section--1{ background: url('../images/mountain.png') center / cover no-repeat; }
 .section--2{ background: var(--s2); }
 .section--3{ background: var(--s3); }
 .section--4{ background: var(--s4); }
@@ -137,3 +137,33 @@ html, body {
 .section--8{ background: var(--s8); }
 .section--9{ background: var(--s9); }
 .section--10{ background: var(--s10); }
+
+.section__content {
+    max-width: 560px;
+    padding: 0 2rem;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.section__title {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin: 0 0 0.5rem;
+}
+
+.section__age {
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 0 1.25rem;
+}
+
+.section__text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 0;
+}
