@@ -128,8 +128,8 @@ html, body {
     font-variant-numeric: tabular-nums;
 }
 .section--1{ background: url('../images/mountain.png') center / cover no-repeat; }
-.section--2{ background: var(--s2); }
-.section--3{ background: var(--s3); }
+.section--2{ background: url('../images/soilOne.png') center / cover no-repeat; }
+.section--3{ background: url('../images/soilTwo.png') center / cover no-repeat; }
 .section--4{ background: var(--s4); }
 .section--5{ background: var(--s5); }
 .section--6{ background: var(--s6); }
