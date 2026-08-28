@@ -130,13 +130,13 @@ html, body {
 .section--1{ background: url('../images/mountain.png') center / cover no-repeat; }
 .section--2{ background: url('../images/soilOne.png') center / cover no-repeat; }
 .section--3{ background: url('../images/soilTwo.png') center / cover no-repeat; }
-.section--4{ background: var(--s4); }
-.section--5{ background: var(--s5); }
-.section--6{ background: var(--s6); }
-.section--7{ background: var(--s7); }
-.section--8{ background: var(--s8); }
-.section--9{ background: var(--s9); }
-.section--10{ background: var(--s10); }
+.section--4{ background: url('../images/soilThree.png') center / cover no-repeat; }
+.section--5{ background: url('../images/ice.png') center / cover no-repeat; }
+.section--6{ background: url('../images/DarkGrassSoil.png') center / cover no-repeat; }
+.section--7{ background: url('../images/water.png') center / cover no-repeat; }
+.section--8{ background: url('../images/cells.png') center / cover no-repeat; }
+.section--9{ background: url('../images/mantle.png') center / cover no-repeat; }
+.section--10{ background: url('../images/core.png') center / cover no-repeat; }
 
 .section__content {
     max-width: 560px;
